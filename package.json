@@ -10,7 +10,7 @@
     "check:type": "tsc --noEmit",
     "check:type:watch": "tsc --noEmit -w",
     "prepare": "husky",
-    "render": "tsc && node dist/render.js",
+    "render": "tsc && node dist/src/render.js",
     "start": "revideo editor --projectFile ./src/project.tsx"
   },
   "dependencies": {
