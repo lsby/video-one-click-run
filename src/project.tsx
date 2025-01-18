@@ -81,8 +81,7 @@ let 我的视频 = makeScene2D('我的视频', function* (view) {
   yield* tts(字幕区域(), '最后, 进入环境, 就可以愉快的使用conda等程序了.')
 
   展示区域().removeChildren()
-  展示区域().add(<Txt text={'cosy voice'} fontSize={80} y={-250} />)
-  展示区域().add(<Txt text={'https://github.com/one-click-run/cosy-voice'} fontSize={60} />)
+  展示区域().add(<Txt text={'cosy voice'} fontSize={80} />)
   yield* tts(字幕区域(), '基于这个方案, 我成功的制作了一个cosy voice的一键运行脚本.')
   yield* tts(字幕区域(), '也放在这个组织的项目里了.')
   yield* tts(字幕区域(), '只需要将这个项目克隆, 然后双击运行脚本, 剩下一切都是自动的.')
